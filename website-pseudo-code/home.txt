@@ -1,0 +1,43 @@
+<html>
+  <LOADER />
+  <div class="notification"></div>
+  <NAVIGATION />
+
+  <div class="container">
+    <BANNER />
+    <CAROUSEL images={imagelist}
+    />
+    <div class="subtitle"></div>
+  </div>
+
+  <div class="container">
+    <div class="title"></div>
+    <!-- loop to create list of cards -->
+    <div class="cardflag"></div>
+    <CARD />
+    <BLUEBLOCK /><BLUEBLOCK /><BLUEBLOCK />
+  </div>
+
+  <div class="container">
+    <div class="title"></div>
+    <div class="fullstack"></div>
+  </div>
+
+  <div class="container">
+    <div class="title"></div>
+    <CAROUSEL
+      <CARD />
+    />
+  </div>
+
+  <div class="container">
+    <div class="title"></div>
+    <CAROUSEL
+      <CARD />
+    />
+  </div>
+
+  <CONTACTSECTION />
+
+  <FOOTER />
+</html>
