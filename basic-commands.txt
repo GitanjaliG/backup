@@ -1,0 +1,80 @@
+Ctrl + Alt + T
+starting the terminal
+
+pwd
+The pwd command will allow you to know in which directory you're located (pwd stands for "print working directory")
+
+~
+for home directory
+
+ls
+The ls command will show you ('list') the files in your current directory
+
+cd
+The cd command will allow you to change directories.
+
+cd /
+To navigate into the root directory
+
+cd ~
+To navigate to your home directory
+
+cd ..
+To navigate up one directory level
+
+cd -
+To navigate to the previous directory (or back)
+
+cp
+will make a copy of a file for you. Example: "cp file foo"
+If you are copying a directory, you must use "cp -r directory foo"
+
+mv
+The mv command will move a file to a different location or will rename a file. Examples are as follows: "mv file foo" will rename the file "file" to "foo". "mv foo ~/Desktop" will move the file "foo" to your Desktop directory, but it will not rename it. You must specify a new file name to rename a file.
+
+rm
+Use this command to remove or delete a file in your directory.
+
+rmdir
+will delete an empty directory. To delete a directory and all of its contents recursively, use rm -r instead.
+
+mkdir
+will allow you to create directories
+
+history
+shows a very long list of commands that you have typed.
+
+Ctrl + R
+using this key combination and then typing a portion of the command will search through your command history
+
+Ctrl + K
+Deletes from the current cursor position to the end of the line.
+
+Ctrl + U
+Deletes from the start of the line to the current cursor position
+
+Alt + B
+Goes back one word at a time.
+
+Alt + F
+Moves forward one word at a time.
+
+Alt + C
+Capitalizes letter where cursor is and moves to end of word.
+
+
+
+apt-get install <package_name>
+This command installs a new package.
+
+apt-get remove <package_name>
+This command removes an installed package, leaving configuration files intact.
+
+grep 'STRING' filename
+The above command searches the file for STRING and lists the lines that contain a match.
+
+grep 'Nicolas Kassis' *
+The above command searches all files in the current directory for the name and lists all lines that contain a match.
+
+grep "\<[A-Za-z].*\>" file
+This regular expression matches any "word" that begins with a letter (upper or lower case). For example, "words" that begin with a digit would not match. The grep command lists the lines that contain a match.

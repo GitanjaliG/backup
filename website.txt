@@ -1,0 +1,14 @@
+//reduce form size(height)
+@media only screen and (min-device-width: 1024px) and (max-height: 666px) {
+    .app-form .form-group{
+        margin-bottom: 5px;
+    }
+}
+
+//IE issues
+-navigation
+-form goes down
+
+
+
+assets/css/main.css assets/dist/css/aboutapp.min.css assets/dist/css/aboutus.min.css assets/dist/css/careerpage.min.css assets/dist/css/home.min.css assets/dist/css/industries.min.css assets/dist/css/whatsapp.min.css
